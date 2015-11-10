@@ -1,0 +1,175 @@
+h2{
+  font-family: sans-serif;
+}
+
+
+a:link{
+    color:white;
+    font-family: sans-serif;
+    font-size:11.5px;
+}
+
+a:visited{
+
+    color:white;
+
+    font-size:11.5px;
+}
+
+a:hover{
+    color:white;
+
+    font-size:11.5px;
+}
+
+a:active{
+    color:white;
+
+    font-size:11.5px;
+}
+.navbar-inverse{
+    background-color:#282828;
+    height:40px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color:#4591b9;
+}
+
+.navbar-nav{
+    font-family: arial, sans-serif;
+    font-size:11px;
+    color:white;
+
+}
+
+
+
+.navbar{
+    border-radius:0px;
+
+}
+
+.navbar-toggle{
+    float:left;
+    margin-right:0px;
+    margin-left: -15px;
+    padding-bottom:10px;
+    padding-top:6px;
+    border:none;
+    padding-right:0px;
+}
+
+.navbar-page{
+    min-width:175px;
+    background-image: url("images/logo.png");
+    background-position: top;
+    margin-right:0px;
+    margin-left:10px;
+}
+
+@media(min-width:800px){
+    .container{
+       width:1200px;
+   }
+}
+
+.navbar-toggle .icon-bar {
+    height:4px;
+    width:25px;
+    border:none;
+
+}
+
+.article{
+    padding-left:25px;
+    padding-right:25px;
+}
+
+
+
+body {
+    line-height: 20px;
+}
+
+
+
+
+.footer{
+    background-color: #282828;
+    min-height:60px;
+}
+
+table.dataTable.dtr-column>tbody>tr>td.control:before, table.dataTable.dtr-column>tbody>tr>th.control:before {
+    background-color: #EE9A49;
+}
+
+
+@media (max-width: 994px) {
+    .info {
+        padding-top: 15px;
+    }
+}
+
+#line {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    position:relative;
+    align: left;
+}
+
+.active {
+    display: block;
+}
+#map1 {
+    margin-top: 40px;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+.footer-page{
+    margin-right:0px;
+    margin-left:-35px;
+    padding-top:2px;
+}
+
+
+.footer-links{
+    float:left;
+    padding-bottom:10px;
+    line-height:15px;
+    margin-left:-15px;
+    margin-right:-70px;
+}
+
+
+@media(min-width:800px){
+    .footer-links{
+        float:left;
+        padding-top:5px;
+        margin-left:-25px;
+    }
+    .footer-page{
+    margin-right:0px;
+    margin-left:10px;
+    padding-top:1px;
+    }
+
+
+
+rect {
+    stroke-width: 0;
+}
+
+.textsmall {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.smaller {
+
+    font-size: 1em;
+}
